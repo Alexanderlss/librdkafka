@@ -273,6 +273,7 @@ struct rd_kafka_conf_s {
                 const struct rd_kafka_sasl_provider *provider;
                 char *principal;
                 char *mechanisms;
+                char *domain_name;
                 char *service_name;
                 char *kinit_cmd;
                 char *keytab;
